@@ -21,6 +21,8 @@ ActiveRecord::Schema.define(version: 20150515182132) do
     t.datetime "completed_at"
   end
 
+  add_index "todo_items", ["todo_list_id"], name: "index_todo_items_on_todo_list_id"
+
   create_table "todo_lists", force: :cascade do |t|
     t.string   "tittle"
     t.text     "description"

@@ -21,11 +21,12 @@ test:
   database: db/test.sqlite3
 
 production:
-  database: db/production.sqlite3
   adapter: postgresql
-  encoding: utf8
-  reconnect: false
-  database: DATABASE_PRODUCTION
+  host: localhost
+  encoding: unicode
+  database: my_production_database
   pool: 5
-  username: root
+  username:
   password:
+
+
