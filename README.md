@@ -1,5 +1,6 @@
-=Todo App
-==This is my third rails app
+Todo App
+
+This is my third rails app
 
 My goal with this challenge is to teach myself Ruby on Rails by building a new web app (using rails).
 
