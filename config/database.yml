@@ -24,7 +24,7 @@ production:
   adapter: postgresql
   host: localhost
   encoding: unicode
-  database: my_production_database
+  database: todo_production
   pool: 5
   username:
   password:
